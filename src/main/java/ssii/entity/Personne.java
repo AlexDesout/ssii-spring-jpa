@@ -22,4 +22,12 @@ public class Personne {
     @NonNull // lombok
     private String nom;
 
+    @NotBlank
+    @NonNull // lombok
+    private String prenom;
+
+    @NotBlank
+    @NonNull // lombok
+    private String poste;
+
 }
